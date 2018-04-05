@@ -1,14 +1,13 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="xuma-masternode/Dockerfile" type="docker-deploy" factoryName="dockerfile" singleton="true" server-name="Docker">
+  <configuration default="false" name="build xuma-masternode/Dockerfile" type="docker-deploy" factoryName="dockerfile" singleton="true" server-name="Docker">
     <deployment type="dockerfile">
       <settings>
         <option name="JSONFilePath" value="" />
-        <option name="buildOnly" value="true" />
         <option name="command" value="" />
         <option name="commandLineOptions" value="" />
-        <option name="containerName" value="" />
+        <option name="containerName" value="xuma-ctr" />
         <option name="entrypoint" value="" />
-        <option name="imageTag" value="" />
+        <option name="imageTag" value="xuma-masternode" />
         <option name="sourceFilePath" value="Dockerfile" />
         <option name="startBrowserSettings">
           <browser url="http://127.0.0.1" />
